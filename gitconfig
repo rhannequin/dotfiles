@@ -1,0 +1,14 @@
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[user]
+  name = Rémy Hannequin
+  email = remy.hannequin@gmail.com
+[alias]
+  ci = commit
+  co = checkout
+  st = status
+  br = branch
+[github]
+  user = rhannequin

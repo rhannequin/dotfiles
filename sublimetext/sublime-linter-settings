@@ -1,0 +1,21 @@
+{
+  "jshint_options":
+  {
+    "indent": 2,
+    "evil": true,
+    "regexdash": true,
+    "browser": true,
+    "wsh": true,
+    "trailing": true,
+    "sub": true,
+    "asi": true,
+    "lastsemic":true,
+    "laxcomma":true,
+    "eqeqeq":false,
+    "boss":true,
+    "curly":false,
+    "bitwise":false,
+    "forin":false,
+    "eqnull":true
+  }
+}
