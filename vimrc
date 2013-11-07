@@ -1,23 +1,47 @@
 " Vundle {{{
+
 set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" Bundles:
+" Bundles
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
-Bundle 'maksimr/vim-jsbeautify'
-Bundle 'jelera/vim-javascript-syntax'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'kchmck/vim-coffee-script'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'tpope/vim-surround'
+Bundle 'tristen/vim-sparkup'
+Bundle 'tComment'
+
+" SnipMate
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'garbas/vim-snipmate'
+Bundle 'honza/vim-snippets'
 
 " Colorschemes
 Bundle 'nanotech/jellybeans.vim'
 
+" Languages
+Bundle 'maksimr/vim-jsbeautify'
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'kchmck/vim-coffee-script'
+
 filetype plugin indent on
+
+" }}}
+
+
+" Redefine <Leader> to ","
+let mapleader= ","
+" Set 300ms to fire keystroke
+set tm=300
+
+
+" EasyMotion config {{{
+let g:EasyMotion_leader_key = '<Leader>'
 " }}}
 
 
@@ -67,11 +91,6 @@ set relativenumber
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 
-" Redefine <Leader> to ","
-let mapleader= ","
-" Set 300ms to fire keystroke
-set tm=300
-
 " Override the 'ignorecase' option if the search pattern contains upper case characters
 set smartcase
 
@@ -99,6 +118,7 @@ endif
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
 
 " Reload .vimrc when we edit it
 au! BufWritePost .vimrc source %
