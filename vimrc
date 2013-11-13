@@ -14,6 +14,7 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'tpope/vim-surround'
 Bundle 'tristen/vim-sparkup'
 Bundle 'tComment'
+Bundle 'scrooloose/nerdtree'
 
 " SnipMate
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -43,6 +44,12 @@ set tm=300
 " EasyMotion config {{{
 let g:EasyMotion_leader_key = '<Leader>'
 " }}}
+
+
+" NERDTree config {{{
+:nmap <Leader>q :NERDTreeToggle<CR>
+" }}}
+
 
 
 " JavaScript syntax for JSON files
