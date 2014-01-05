@@ -1,21 +1,49 @@
 {
-  "jshint_options":
-  {
-    "indent": 2,
-    "evil": true,
-    "regexdash": true,
-    "browser": true,
-    "wsh": true,
-    "trailing": true,
-    "sub": true,
-    "asi": true,
-    "lastsemic":true,
-    "laxcomma":true,
-    "eqeqeq":false,
-    "boss":true,
-    "curly":false,
-    "bitwise":false,
-    "forin":false,
-    "eqnull":true
+  "user": {
+    "debug": false,
+    "delay": 0.25,
+    "error_color": "D02000",
+    "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+    "gutter_theme_excludes": [],
+    "jshint_options": {
+      "asi": true,
+      "bitwise": false,
+      "boss": true,
+      "browser": true,
+      "curly": false,
+      "eqeqeq": false,
+      "eqnull": true,
+      "evil": true,
+      "forin": false,
+      "indent": 2,
+      "lastsemic": true,
+      "laxcomma": true,
+      "regexdash": true,
+      "sub": true,
+      "trailing": true,
+      "wsh": true
+    },
+    "lint_mode": "background",
+    "linters": {},
+    "mark_style": "outline",
+    "no_column_highlights_line": false,
+    "paths": {
+      "linux": [],
+      "osx": [],
+      "windows": []
+    },
+    "python_paths": {
+      "linux": [],
+      "osx": [],
+      "windows": []
+    },
+    "rc_search_limit": 3,
+    "show_errors_on_save": false,
+    "show_marks_in_minimap": true,
+    "syntax_map": {
+      "php": "html"
+    },
+    "warning_color": "DDB700",
+    "wrap_find": true
   }
 }
