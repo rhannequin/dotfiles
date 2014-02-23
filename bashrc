@@ -52,12 +52,12 @@ esac
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
+    # We have color support; assume it's compliant with Ecma-48
+    # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+    # a case would tend to support setf rather than setaf.)
+    color_prompt=yes
     else
-	color_prompt=
+    color_prompt=
     fi
 fi
 
@@ -143,7 +143,10 @@ export PATH="./node_modules/bin:${PATH}"
 # Add ./node_modules to access local node modules
 export PATH=${PATH}:./node_modules/.bin:
 
-alias sbl='~/opt/Sublime\ Text\ 2/sublime_text'
+# Sublime text
+alias sbl='/usr/bin/subl'
+
+# Dropbox
 alias dropbox='~/.dropbox-dist/dropboxd'
 
 # git log with more info and colors
