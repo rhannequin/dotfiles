@@ -11,6 +11,8 @@
     <notification groupId="Vcs Minor Notifications" />
     <notification groupId="FindInPath" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Node.js Project Detector" />
+    <notification groupId="Node.js Boilerplate Project Generator" displayType="STICKY_BALLOON" />
+    <notification groupId="JavaScript Library Management" displayType="STICKY_BALLOON" />
     <toolWindow group="Git Messages" />
     <toolWindow group="FindInPath" />
   </component>

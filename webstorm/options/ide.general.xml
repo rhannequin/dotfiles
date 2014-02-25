@@ -16,6 +16,7 @@
     <option name="searchInBackground" value="false" />
     <option name="confirmExit" value="true" />
     <option name="confirmOpenNewProject2" value="-1" />
+    <option name="lastProjectLocation" value="$USER_HOME$/workspace/github" />
   </component>
 </application>
 
