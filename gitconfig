@@ -12,3 +12,5 @@
   br = branch
 [github]
   user = rhannequin
+[push]
+  default = simple

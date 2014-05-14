@@ -1,6 +1,17 @@
 {
   "color_scheme": "Packages/User/Monokai (SL).tmTheme",
+  "folder_exclude_patterns":
+  [
+    "tmp",
+    ".idea",
+    ".git",
+    "log"
+  ],
   "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
   "rulers":
   [
     80
