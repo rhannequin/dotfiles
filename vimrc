@@ -3,33 +3,34 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-" Bundles
+" Plinginss
 " let Vundle manage Vundle
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'tpope/vim-surround'
-Bundle 'tristen/vim-sparkup'
-Bundle 'tComment'
-Bundle 'scrooloose/nerdtree'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tpope/vim-surround'
+Plugin 'tristen/vim-sparkup'
+Plugin 'tComment'
+Plugin 'scrooloose/nerdtree'
 
 " SnipMate
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tomtom/tlib_vim'
-Bundle 'garbas/vim-snipmate'
-Bundle 'honza/vim-snippets'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 
 " Colorschemes
-Bundle 'nanotech/jellybeans.vim'
+Plugin 'nanotech/jellybeans.vim'
 
 " Languages
-Bundle 'maksimr/vim-jsbeautify'
-Bundle 'jelera/vim-javascript-syntax'
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'maksimr/vim-jsbeautify'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'kchmck/vim-coffee-script'
 
+call vundle#end()
 filetype plugin indent on
 
 " }}}
@@ -129,3 +130,4 @@ cmap w!! w !sudo tee > /dev/null %
 
 " Reload .vimrc when we edit it
 au! BufWritePost .vimrc source %
+
