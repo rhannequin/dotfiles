@@ -56,6 +56,12 @@ let g:EasyMotion_leader_key = '<Leader>'
 " }}}
 
 
+" Choosevim
+nmap - <Plug>(choosewin)
+let g:choosewin_overlay_enable = 1
+let g:choosewin_overlay_clear_multibyte = 1
+
+
 
 " JavaScript syntax for JSON files
 autocmd BufNewFile,BufRead *.json set ft=javascript
