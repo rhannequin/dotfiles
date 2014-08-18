@@ -16,6 +16,9 @@ Plugin 'tristen/vim-sparkup'
 Plugin 'tComment'
 Plugin 'scrooloose/nerdtree'
 
+" Choose window interactively
+Plugin 't9md/vim-choosewin'
+
 " SnipMate
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -29,6 +32,7 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'digitaltoad/vim-jade'
 
 call vundle#end()
 filetype plugin indent on
