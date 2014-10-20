@@ -14,3 +14,7 @@
   user = rhannequin
 [push]
   default = simple
+[branch]
+  autosetuprebase = always
+[branch "master"]
+  rebase = true
