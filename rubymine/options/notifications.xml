@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="NotificationConfiguration">
     <notification groupId="Gem Manager" />
@@ -25,6 +24,8 @@
     <toolWindow group="FindInPath" />
     <toolWindow group="Database" />
     <toolWindow group="Database view" />
+    <toolWindow group="Find in Path" />
+    <toolWindow group="Web Deployment: Remote Host" />
+    <toolWindow group="Vcs Messages" />
   </component>
 </application>
-

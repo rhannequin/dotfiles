@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="ProjectManager">
     <defaultProject version="4">
@@ -23,24 +22,9 @@
         <modules />
       </component>
       <component name="ProjectRootManager" version="2" />
-      <component name="PropertiesComponent">
-        <property name="options.lastSelected" value="preferences.keymap" />
-        <property name="options.splitter.main.proportions" value="0.3" />
-        <property name="options.splitter.details.proportions" value="0.2" />
-        <property name="options.searchVisible" value="true" />
-      </component>
       <component name="RunManager">
         <list size="0" />
-      </component>
-      <component name="VcsContentAnnotationSettings">
-        <option name="myLimit" value="2678400000" />
-      </component>
-      <component name="VcsManagerConfiguration">
-        <option name="myTodoPanelSettings">
-          <TodoPanelSettings />
-        </option>
       </component>
     </defaultProject>
   </component>
 </application>
-
