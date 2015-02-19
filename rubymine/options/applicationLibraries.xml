@@ -3338,6 +3338,16 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/gemfiles" />
       </SOURCES>
     </library>
+    <library name="devise-i18n (v0.11.3, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/devise-i18n-0.11.3/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/devise-i18n-0.11.3/config" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/devise-i18n-0.11.3/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/devise-i18n-0.11.3/config" />
+      </SOURCES>
+    </library>
     <library name="devise_cas_authenticatable (v1.3.2, rbenv: 2.0.0-p247) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/devise_cas_authenticatable-1.3.2/app" />
@@ -3572,6 +3582,14 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/dragonfly-0.9.14/samples" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/dragonfly-0.9.14/fixtures" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/dragonfly-0.9.14/extra_docs" />
+      </SOURCES>
+    </library>
+    <library name="easy_translate (v0.5.0, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/easy_translate-0.5.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/easy_translate-0.5.0/lib" />
       </SOURCES>
     </library>
     <library name="email_spec (v1.4.0, RVM: ruby-1.9.3-p194 [rails3-bootstrap-devise-cancan]) [gem]">
@@ -5094,6 +5112,16 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/highline-1.6.19/site" />
       </SOURCES>
     </library>
+    <library name="highline (v1.6.21, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/highline-1.6.21/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/highline-1.6.21/site" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/highline-1.6.21/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/highline-1.6.21/site" />
+      </SOURCES>
+    </library>
     <library name="hike (v1.2.1, RVM: ruby-1.9.3-p194 [rails3-bootstrap-devise-cancan]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194@rails3-bootstrap-devise-cancan/gems/hike-1.2.1/lib" />
@@ -5434,6 +5462,20 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-0.7.0/gemfiles" />
+      </SOURCES>
+    </library>
+    <library name="i18n-tasks (v0.7.12, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-tasks-0.7.12/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-tasks-0.7.12/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-tasks-0.7.12/config" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-tasks-0.7.12/templates" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-tasks-0.7.12/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-tasks-0.7.12/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-tasks-0.7.12/config" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/i18n-tasks-0.7.12/templates" />
       </SOURCES>
     </library>
     <library name="io-console (v0.4.2, rbenv: 2.1.5) [gem]">
@@ -8910,6 +8952,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0@funkygarette/gems/quiet_assets-1.0.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="quiet_assets (v1.1.0, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/quiet_assets-1.1.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/quiet_assets-1.1.0/lib" />
       </SOURCES>
     </library>
     <library name="rack (v1.4.1, RVM: ruby-1.9.3-p194) [gem]">
@@ -12634,6 +12684,14 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/simple_form-3.0.0/lib" />
       </SOURCES>
     </library>
+    <library name="simple_form (v3.1.0, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/simple_form-3.1.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/simple_form-3.1.0/lib" />
+      </SOURCES>
+    </library>
     <library name="simple_oauth (v0.2.0, rbenv: 2.0.0-p247) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/simple_oauth-0.2.0/lib" />
@@ -12856,6 +12914,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/slop-3.4.7/lib" />
+      </SOURCES>
+    </library>
+    <library name="slop (v3.6.0, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/slop-3.6.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/slop-3.6.0/lib" />
       </SOURCES>
     </library>
     <library name="spring (v1.2.0, rbenv: 2.1.5) [gem]">
@@ -13298,6 +13364,28 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/sys-uname-0.9.2/lib" />
       </SOURCES>
     </library>
+    <library name="term-ansicolor (v1.3.0, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/term-ansicolor-1.3.0/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/term-ansicolor-1.3.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/term-ansicolor-1.3.0/tests" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/term-ansicolor-1.3.0/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/term-ansicolor-1.3.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/term-ansicolor-1.3.0/tests" />
+      </SOURCES>
+    </library>
+    <library name="terminal-table (v1.4.5, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/terminal-table-1.4.5/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/terminal-table-1.4.5/tasks" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/terminal-table-1.4.5/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/terminal-table-1.4.5/tasks" />
+      </SOURCES>
+    </library>
     <library name="test-unit (v2.1.5.0, rbenv: 2.1.5) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/2.1.0/dl" />
@@ -13720,6 +13808,14 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/thor-0.19.1/lib" />
       </SOURCES>
     </library>
+    <library name="thread (v0.1.5, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/thread-0.1.5/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/thread-0.1.5/lib" />
+      </SOURCES>
+    </library>
     <library name="thread_safe (v0.1.2, rbenv: 2.0.0-p247) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/thread_safe-0.1.2/ext" />
@@ -14014,6 +14110,16 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/timers-1.1.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="tins (v1.3.4, rbenv: 2.2.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tins-1.3.4/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tins-1.3.4/tests" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tins-1.3.4/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tins-1.3.4/tests" />
       </SOURCES>
     </library>
     <library name="treetop (v1.4.10, RVM: ruby-1.9.3-p194) [gem]">
