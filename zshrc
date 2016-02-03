@@ -90,14 +90,13 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 ################### START CUSTOM ###################
 ####################################################
 
-# Add rbenv to PATH
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="./bin:$PATH"
+# Add RVM to PATH
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
 
-# Add ~/opt bins (for Node.js)
-export PATH=~/opt/node/bin:${PATH}
-export PATH="./node_modules/bin:${PATH}"
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Add ./node_modules to access local node modules
 export PATH=${PATH}:./node_modules/.bin:
@@ -194,9 +193,6 @@ t() {
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-# Play! Framework
-export PATH="$HOME/workspace/play/play-2.1.4:$PATH"
 
 
 ####################################################
