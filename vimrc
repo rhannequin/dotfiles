@@ -31,8 +31,6 @@ Plugin 'nanotech/jellybeans.vim'
 " Languages
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'jelera/vim-javascript-syntax'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'digitaltoad/vim-jade'
 
 call vundle#end()
 filetype plugin indent on
@@ -114,10 +112,6 @@ set smartcase
 
 " Remove white spaces with _s
 nmap _s :%s/\s\+$//<CR>
-
-" check php syntax with Ctrl + L
-autocmd FileType php noremap <C-L> :!/usr/bin/env php -l %<CR>
-autocmd FileType phtml noremap &lt;
 
 " Use Q for formatting the current paragraph (or selection)
 vmap Q gq
