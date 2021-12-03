@@ -104,9 +104,6 @@ export PATH=${PATH}:./node_modules/.bin:
 # Sublime text
 alias sbl='/usr/bin/subl'
 
-# Dropbox
-alias dropbox='~/.dropbox-dist/dropboxd'
-
 # git log with more info and colors
 alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
@@ -117,7 +114,7 @@ alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\
 alias upgrade='sudo apt-get update && sudo apt-get upgrade && sudo apt-get clean'
 
 # Create python server to this directory
-alias servethis="python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()'"
+alias servethis="python3 -m http.server"
 
 # Get external ip address
 alias ifconfig-ext='curl ifconfig.me'
@@ -194,6 +191,7 @@ t() {
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+export EDITOR=vim
 
 ####################################################
 #################### END CUSTOM ####################
