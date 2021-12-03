@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+meta+i",
+    "command": "extension.runFileSpecs"
+  },
+  {
+    "key": "ctrl+meta+t",
+    "command": "-extension.runFileSpecs"
+  }
+]
