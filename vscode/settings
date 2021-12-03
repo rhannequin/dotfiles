@@ -1,0 +1,29 @@
+{
+	"editor.tabSize": 2,
+	"files.insertFinalNewline": true,
+	"[ruby]": {
+		"editor.tabSize": 2,
+	},
+	"[haml]": {
+		"editor.tabSize": 2,
+	},
+	"editor.renderLineHighlight": "all",
+	"ruby.intellisense": "rubyLocate",
+	"editor.rulers": [
+		80,
+		120
+	],
+	"gitlens.advanced.messages": {
+		"suppressCommitHasNoPreviousCommitWarning": false,
+		"suppressCommitNotFoundWarning": false,
+		"suppressFileNotUnderSourceControlWarning": false,
+		"suppressGitVersionWarning": false,
+		"suppressLineUncommittedWarning": false,
+		"suppressNoRepositoryWarning": false,
+	},
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.codeLens.enabled": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"prettier.semi": false,
+	"window.zoomLevel": 1,
+}
