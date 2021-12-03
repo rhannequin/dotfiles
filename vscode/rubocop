@@ -1,0 +1,12 @@
+{
+	"ruby.interpreter.commandPath": "$HOME/.rvm/rubies/ruby-3.0.0/bin/ruby",
+	"ruby.lint": {
+		"rubocop": true
+	},
+	"ruby.rubocop.executePath": "$HOME/.rvm/gems/ruby-2.6.7/bin/",
+	"ruby.rubocop.configFilePath": "$HOME/code/project-name/.rubocop.yml",
+	"ruby.rubocop.onSave": true,
+	"[ruby]": {
+		"editor.tabSize": 2
+	}
+}
