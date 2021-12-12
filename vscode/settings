@@ -8,7 +8,6 @@
 		"editor.tabSize": 2,
 	},
 	"editor.renderLineHighlight": "all",
-	"ruby.intellisense": "rubyLocate",
 	"editor.rulers": [
 		80,
 		120
